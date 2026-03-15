@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer  ></script>
+    <title>JS DRUM KIT</title>
+</head>
+<body>
+
+   <div class="keys">
+
+    <div class="key" data-key="65">
+        <span class="letter">A</span>
+        <span class="sound">clap</span>
+    </div>
+
+    <div class="key" data-key="83">
+        <span class="letter">S</span>
+        <span class="sound">hihat</span>
+    </div>
+
+    <div class="key" data-key="68">
+        <span class="letter">D</span>
+        <span class="sound">kick</span>
+    </div>
+
+    <div class="key" data-key="70">
+        <span class="letter">F</span>
+        <span class="sound">openhat</span>
+    </div>
+
+    <div class="key" data-key="71">
+        <span class="letter">G</span>
+        <span class="sound">boom</span>
+    </div>
+
+    <div class="key" data-key="72">
+        <span class="letter">H</span>
+        <span class="sound">ride</span>
+    </div>
+
+    <div class="key" data-key="74">
+        <span class="letter">J</span>
+        <span class="sound">snare</span>
+    </div>
+
+</div>
+    
+
+    <audio data-key="65" src="/sounds/clap.nav.wav"></audio>
+    <audio data-key="83" src="/sounds/kick.mp3"></audio>
+    <audio data-key="68" src="/sounds/openhat.nav.mp3"></audio>
+    <audio data-key="70" src="/sounds/boom.nav.mp3"></audio>
+    <audio data-key="71" src="/sounds/ride.nav.mp3"></audio>
+    <audio data-key="72" src="/sounds/tom.nav.mp3"></audio>
+    <audio data-key="74" src="/sounds/tink.nav.mp3"></audio>
+</body>
+</html>

@@ -1,0 +1,48 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.keys{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap:30px;
+    font-size: xx-large;
+       
+
+}
+.key{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    font-size: larger;
+    border: 2px solid white;
+    padding: 14px;
+    color: black;
+    background-color: grey;
+
+}
+
+.sound{
+    font-size: 14px;
+    color: white;
+    margin-top: 5px;
+}
+
+.letter{
+    font-size: 28px;
+    font-weight: bold;
+}
+.key.playing{
+    background: yellow;
+    transform: scale(1,1);
+    transition: all 0.1s;
+}
