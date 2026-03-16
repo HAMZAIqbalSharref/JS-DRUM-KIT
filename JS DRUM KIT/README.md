@@ -1,6 +1,6 @@
 # JS Drum Kit
 
-A simple drum kit web application built with JavaScript, HTML, and CSS.
+This project is built as part of JavaScript30, a 30-day vanilla JavaScript coding challenge by Wes Bos. It focuses on DOM manipulation and event handling to create a fun drum kit interface.
 
 ## Features
 
