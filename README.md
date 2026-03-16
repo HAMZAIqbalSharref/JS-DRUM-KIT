@@ -11,7 +11,7 @@ A simple drum kit web application built with JavaScript, HTML, and CSS.
 - Visual feedback when keys are pressed
 - Responsive design
 
-## Goals
+    ## Goals
 
 - Practice DOM manipulation
 - Learn vanilla JavaScript
